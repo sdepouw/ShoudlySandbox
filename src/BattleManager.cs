@@ -12,4 +12,8 @@ public class BattleManager
   }
 
   public List<decimal> GetShopPrices() => [2.99m, 45m, 1000m, 65m, 457.22m];
+  
+  public Task ToBattle() => Task.CompletedTask; // Imagine a fierce battle taking place.
+
+  public Task Explode() => throw new NotImplementedException("Not done yet!");
 }
