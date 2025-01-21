@@ -16,4 +16,6 @@ public class BattleManager
   public Task ToBattle() => Task.CompletedTask; // Imagine a fierce battle taking place.
 
   public Task Explode() => throw new NotImplementedException("Not done yet!");
+
+  public string GetBattleName() => $"The Amazing Contest{Environment.NewLine}An Incredible Tale\r";
 }
