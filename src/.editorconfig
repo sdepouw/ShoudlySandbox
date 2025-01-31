@@ -1,0 +1,8 @@
+[*.{cs,vb}]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+tab_width = 2
+dotnet_diagnostic.IDE0005.severity = error # Remove unused usings
+
+
